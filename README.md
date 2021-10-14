@@ -9,7 +9,7 @@ All Python code shall follow [PEP8 Style](https://www.python.org/dev/peps/pep-00
 Each team will commit to one development branch. Team branches shall merge to master once a week. This implies that your code should be working and tested by the end of week cut-off time.
 
 # Environment Setup
-For this year we will be using Python 3.9. Install Python from the [official website](hhttps://www.python.org/downloads/). For Windows, make sure to check the option to add Python to your PATH and increase the PATH length limit.
+For this year we will be using Python 3.9. Install Python from the [official website](https://www.python.org/downloads/). For Windows, make sure to check the option to add Python to your PATH and increase the PATH length limit.
 
 Once the installer completes, open up a terminal (On Mac, use Terminal.app and on Windows, use CMD or Powershell). Run `python3 --version` to check the installation was succesful.
 
