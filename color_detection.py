@@ -6,8 +6,8 @@ image = cv2.imread("blue_flowers.jpeg")
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 # define blue color range
-light_blue = np.array([110,50,50])
-dark_blue = np.array([130,255,255])
+lower_yellow_bound = np.array([26,50,50])
+upper_yellow_bound = np.array([30,255,255])
 
 # Threshold the HSV image to get only blue colors
 mask = cv2.inRange(hsv, light_blue, dark_blue)
