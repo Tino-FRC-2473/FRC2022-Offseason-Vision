@@ -1,6 +1,5 @@
 import CameraData as CD
 
-class VideoFileGenerator:
 
+class VideoFileGenerator:
     def __init__(self):
-        

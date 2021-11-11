@@ -1,6 +1,5 @@
 import CameraData as CD
 
-class DepthLiveGenerator:
 
+class DepthLiveGenerator:
     def __init__(self):
-        
