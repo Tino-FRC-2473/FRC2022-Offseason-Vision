@@ -1,7 +1,4 @@
-from CameraData import CameraData
 import cv2
-
-CD = CameraData()
 
 
 class VideoFileGenerator:
@@ -23,14 +20,3 @@ class VideoFileGenerator:
 
     def is_capturing(self):
         return self.capturing
-
-
-# run test code
-test_video = VideoFileGenerator("/Users/arjunsudheer/Desktop/video_test_FRC.mp4")
-next_video_frame, is_valid_frame = test_video.get_next_frame()
-i = 0
-while is_valid_frame:
-    print(CD.convert_bgr_to_rgb(next_video_frame))
-    cv2.imwrite("saved_image_" + str(i) + ".jpg", next_video_frame)
-    next_video_frame, is_valid_frame = test_video.get_next_frame()
-    i += 1
