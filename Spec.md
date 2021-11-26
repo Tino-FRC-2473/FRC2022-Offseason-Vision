@@ -14,15 +14,9 @@ Uses cv2 API
 * Returns the image that the camera sees (as a 2D or 3D arr)
 * Captures video from a video file
 
-## DepthDataGenerator
-* Returns the depth array using the camera port directly
-
 ## Video Live Generator
 * Returns current image frame 
 * Captures video from the camera itself
-
-## DepthLiveGenerator
-Returns the depth array using an image file 
 
 ## CameraData
 * Stores all the camera parameters (takes in a camera in constructor)
