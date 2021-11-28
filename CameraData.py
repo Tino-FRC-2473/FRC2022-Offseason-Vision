@@ -17,9 +17,3 @@ class CameraData:
 
     def get_camera_tilt(self):
         return self.CAMERA_TILT
-
-    def convert_bgr_to_rgb(self, image):
-        return cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
-    def convert_bgr_to_yuv(self, image):
-        return cv2.cvtColor(image, cv2.COLOR_BGR2YUV)
